@@ -1,0 +1,9 @@
+<div class="row">
+  <!--Input numbers-->
+<input type="number" [(ngModel)]="numbers"  (input)="colorizeNumberInGrid($event)" placeholder="Enter number between 1 and 100"   min="1" max="100"/>
+</div>
+<!-- grid list of number -->
+<mat-grid-list [cols]="breakpoint" rowHeight="2:0.8" (window:resize)="onResize($event)">
+  <mat-grid-tile *ngFor='let item of  listNumbers'   [style.background]="item.color">
+    {{item.number }}</mat-grid-tile>
+</mat-grid-list>

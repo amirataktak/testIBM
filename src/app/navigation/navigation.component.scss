@@ -1,0 +1,15 @@
+
+mat-sidenav-container{
+  height: auto;
+  margin: 10px;
+  .mat-toolbar.mat-primary {
+    background: #3f51b5;
+    color: #fff;
+  }
+  a{
+    width: 200px;
+  }
+  i{
+    margin-right: 10px;
+  }
+}

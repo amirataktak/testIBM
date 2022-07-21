@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+input{
+  width: 305px;
+  height: 48px;
+  border-radius: 24px;
+  border: 1px solid #f2f6fb;
+  background: #f2f6fb;
+  font-family: 'Poppins';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  color: #5f87bb;
+  padding-left: 40px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+
+}::placeholder { 
+  font-family: 'Poppins';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  color: #5f87bb;
+
+}
+input:focus {outline:none!important;}
+
+mat-grid-list{
+  margin:20px;
+  font-family: 'Poppins';
+  font-weight: normal;
+  font-size: 16px;
+  color:#133158;
+ 
+}
